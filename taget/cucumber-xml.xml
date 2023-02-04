@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="0.157">
+    <testcase classname="Interact with the Demo Page" name="Add products to the cart" time="0.019">
+        <system-out><![CDATA[Given I have navigated to the page..........................................passed
+When I click on the "Nexus 6" product.......................................passed
+Then I should be redirected to the product details page.....................passed
+And I click on the "Add to cart" button.....................................passed
+Then I should see a "confirmation" alert....................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Login" name="Doc Strings" time="0.004">
+        <system-out><![CDATA[Given I have the following text:............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Is it Friday yet?" name="Sunday isn't Friday" time="0.002">
+        <system-out><![CDATA[Given today is Sunday.......................................................passed
+When I ask whether it's Friday yet..........................................passed
+Then I should be told "Nope"................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
